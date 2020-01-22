@@ -7,7 +7,14 @@ The task solved by the contents of this repository is navigating in a finite spa
 
 Apart from the above introduction, this repository contains the code that used for training the agent, along with the trained model weights. Additionally, I attached a report describing my learning algorithm.
 
-Usage:
+Usage (inlc. pre-requisites):
+
+1. Install Cython by pip3 install cython
+2. Install pyTorch by pip3 install torch===1.4.0 torchvision===0.5.0 -f https://download.pytorch.org/whl/torch_stable.html
+  This command lets you install pyTorch via Pip, in a Windows environment, utilizing CUDA 10.1 (commands for other environments can be generated at pyTorch.org
+3. Install Unity Machine Learning Agents by pip3 install mlagents
+
+
 
 ----
 
