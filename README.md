@@ -23,30 +23,31 @@ The project is written in pyTorch and Python3. The functional, documented code i
 
 <u>Characteristics of the solution:</u> 
 
-State space:
+<b>State space:</b>
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. 
 
-Action space:
+<b>Action space:</b>
 The action space consists of four discrete actions, as follows:
 0 - move forward.
 1 - move backward.
 2 - turn left.
 3 - turn right.
 
-Rewards:
+<b>Rewards:</b>
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+--------------
 
-Training the agent:
+<h2>Training the agent:</h2>
 
-<b>Running the code:</b>
+<h2>Running the code:</h2>
 
 To run the software, type python Navigation.py at the Anaconda command prompt, with the above described Anaconda environment being active.
 
 ----
 
-Report:
+<h2>Report:</h2>
 
 Learning algorithm:
 Plot of rewards:
