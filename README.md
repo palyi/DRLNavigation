@@ -36,7 +36,8 @@ The action space consists of four discrete actions, as follows:
 <b>Rewards:</b>
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
-The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+The task is episodic and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
+
 --------------
 
 <h2>Training the agent:</h2>
