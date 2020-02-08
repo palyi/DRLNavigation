@@ -41,6 +41,9 @@ The task is episodic and in order to solve the environment, the agent must get a
 --------------
 
 <h2>Training the agent:</h2>
+In order to train the agent, the boolean variable in the DQN function of Navigation.py should be set true by train_mode=True, meaning so that resetting the environment should be adjusted as follows:
+
+env_info = env.reset(train_mode=True)[brain_name]
 
 <h2>Running the code:</h2>
 
