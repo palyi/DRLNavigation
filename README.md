@@ -23,17 +23,17 @@ The project is written in pyTorch and Python3. The functional, documented code i
 
 <h3>Characteristics of the solution:</h3> 
 
-<b><u>State space:</u></b>
+<b><u>State space:</u></b><br>
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. 
 
-<b><u>Action space:</u></b>
+<b><u>Action space:</u></b><br>
 The action space consists of four discrete actions, as follows:
 0 - move forward.
 1 - move backward.
 2 - turn left.
 3 - turn right.
 
-<b><u>Rewards:</u></b>
+<b><u>Rewards:</u></b><br>
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
 The task is episodic and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
