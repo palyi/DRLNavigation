@@ -53,9 +53,9 @@ To run the software, type python Navigation.py at the Anaconda command prompt, w
 
 <h2>Report:</h2>
 
-![Result chart]("chart1.JPG")
+![Result chart]("/chart1.JPG")
 then
-![Result log]("terminal.JPG")
+![Result log]("/terminal.JPG")
 
 Learning algorithm:
 Plot of rewards:
