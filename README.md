@@ -1,7 +1,7 @@
 # DRLNavigation
 Navigating by Deep Reinforcement Learning
 
-Quick Summary:
+<b>Quick Summary:</b>
 
 The task solved by the contents of this repository is navigating in a finite space featuring colored objects (bananas). The agent of this reinforcement learning scenario is trained to collect as many of the target objects as possible.
 
