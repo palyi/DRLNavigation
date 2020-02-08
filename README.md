@@ -17,7 +17,7 @@ Apart from the above introduction, this repository contains the code that used f
 
 ------------
 
-<b>Detailed Description:<b>
+<b>Detailed Description:</b>
 
 The project is written in pyTorch and Python3. The functional, documented code is included in this repository, alongside with the model weights of the successful agent, contained in the file named checkpoint.pth.
 
