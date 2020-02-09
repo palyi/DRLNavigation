@@ -11,7 +11,13 @@ The software is implementing Deep Reinforcement Learning. The agent makes use of
 <h2>Model architecture of the deep Q neural network applied</h2>
 
 <h2>Hyperparameters chosen</h2>
-History of past data is buffered in a replay pool 
+Similarly to the example task (lunar lander), I applied the following hyperparameters:
+BUFFER_SIZE = int(1e5)  # replay buffer size
+BATCH_SIZE = 64         # minibatch size
+GAMMA = 0.99            # discount factor
+TAU = 1e-3              # for soft update of target parameters
+LR = 5e-4               # learning rate 
+UPDATE_EVERY = 4        # how often to update the network
 
 <h2>Plot of rewards per episode</h2> 
 
@@ -22,5 +28,5 @@ Number of episodes needed to solve the environment.
 ![Result log](terminal.JPG)
 
 
-Ideas for future work:
+<h2>Ideas for future work</h2>
 I would most probably go for Prioritized Experience Replay to further improve the performance of the algorithm. By that approach, the agent could learn more of certain scenarios that are proven as more important, hence visiting those more frequently.
