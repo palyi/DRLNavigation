@@ -78,7 +78,7 @@ def dqn(n_episodes=2000, max_t=1000, eps_start=1.0, eps_end=0.01, eps_decay=0.99
         print('\rEpisode {}\tAverage Score: {:.2f}'.format(i_episode, np.mean(scores_window)), end="")
         if i_episode % 100 == 0:
             print('\rEpisode {}\tAverage Score: {:.2f}'.format(i_episode, np.mean(scores_window)))
-        if achievement>=13:               # if environment solved according to task definition
+        if achievement>=16.5:               # if environment solved according to task definition
             print('\nEnvironment solved in {:d} episodes!\tAverage Score: {:.2f}'.format(i_episode-100, np.mean(scores_window)))
             if train_mode:
                 torch.save(agent.qnetwork_local.state_dict(), 'e:\\Development\\DeepReinf\\DQN2-Bananas\checkpoint.pth')
@@ -87,7 +87,7 @@ def dqn(n_episodes=2000, max_t=1000, eps_start=1.0, eps_end=0.01, eps_decay=0.99
     return scores
 
 agent = Agent(state_size=state_size, action_size=action_size, seed=0)
-scores = dqn(n_episodes=500, eps_decay=0.98, eps_end=0.02, train_mode=True)
+scores = dqn(n_episodes=2000, eps_start=0.98, eps_decay=0.89, eps_end=0.01, train_mode=True)
 
 fig = plt.figure()
 ax = fig.add_subplot(111)
