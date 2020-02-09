@@ -55,15 +55,4 @@ env_info = env.reset(train_mode=True)[brain_name]
 
 To run the software, type python Navigation.py at the Anaconda command prompt, with the above described Anaconda environment being active.
 
-----
-
-<h2>Report:</h2>
-
-![Result chart](chart1.JPG)
-then
-![Result log](terminal.JPG)
-
-Learning algorithm:
-Plot of rewards:
-Ideas for future work:
 
