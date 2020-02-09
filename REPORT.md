@@ -10,6 +10,16 @@ The software is implementing Deep Reinforcement Learning. The agent makes use of
 
 <h2>Model architecture of the deep Q neural network applied</h2>
 
+The artificial neural network applied (same structure for both) is initialized with the following structure:<br>
+self.fc1 = nn.Linear(state_size, fc1_units)<br>
+self.fc2 = nn.Linear(fc1_units, fc2_units)<br>
+self.fc3 = nn.Linear(fc2_units, action_size)<br>
+<br>
+while the forward propagation is implemented as:<br>
+x = F.relu(self.fc1(state))<br>
+x = F.relu(self.fc2(x))<br>
+return self.fc3(x)<br>
+
 <h2>Hyperparameters chosen</h2>
 
 Similarly to the example task (lunar lander), I applied the following hyperparameters: <br>
