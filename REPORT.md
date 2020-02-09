@@ -40,10 +40,10 @@ Number of episodes needed to solve the environment.
 
 <h2>Running the agent with the best weights achieved:</h2>
 <br>
-![Result chart](RunChart.JPG)
+![Test Result chart](RunChart.JPG)
 <br>
 Number of episodes needed to solve the environment.
-![Result log](runTerminal.JPG)
+![Test Result log](runTerminal.JPG)
 
 <h2>Ideas for future work</h2>
 I would most probably go for Prioritized Experience Replay to further improve the performance of the algorithm. By that approach, the agent could learn more of certain scenarios that are proven as more important, hence visiting those more frequently.
