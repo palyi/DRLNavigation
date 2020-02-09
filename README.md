@@ -5,21 +5,20 @@
 
 The task solved by the contents of this repository is navigating in a finite space featuring colored objects (bananas). The agent of this reinforcement learning scenario is trained to collect as many of the target objects as possible.
 
-Apart from the above introduction, this repository contains the code that used for training the agent, along with the trained model weights. Additionally, I attached a report describing my learning algorithm.
+Apart from the above introduction, this repository contains the code that used for training the agent, along with the trained model weights. Additionally, I attached a report describing my learning algorithm, and one program dedicated to running the agent with the weights saved as a result of the last training.
 
 <h2>Usage:</h2>
 
 <h3>Installing dependencies</h3>
 
-1. Install Anaconda and create an environment with TensorFlow 1.7.1
-2. Install Cython by pip install cython
-3. Install pyTorch by pip install torch===1.4.0 torchvision===0.5.0 -f https://download.pytorch.org/whl/torch_stable.html
+1. Install Anaconda and create an environment
+2. Install pyTorch by pip install torch===1.4.0 torchvision===0.5.0 -f https://download.pytorch.org/whl/torch_stable.html
   This command lets you install pyTorch via Pip, in a Windows environment, utilizing CUDA 10.1 (commands for other environments can be generated at pyTorch.org
-4. Install Unity Machine Learning Agents by pip3 install mlagents
+3. Install Unity Machine Learning Agents by pip install mlagents
 
 <h3>Downloading files needed</h3>
 
-1. Clone this git repository in your directory of choice.
+Clone this git repository in your directory of choice.
 
 ------------
 
@@ -42,17 +41,13 @@ The action space consists of four discrete actions, as follows:
 <b><u>Rewards:</u></b><br>
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
-The task is episodic and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
+The task is episodic and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes. (The uploaded trainer was given the aim of a score of 16.5.)
 
 --------------
 
 <h2>Training the agent:</h2>
-In order to train the agent, the boolean variable in the DQN function of Navigation.py should be set true by train_mode=True, meaning so that resetting the environment should be adjusted as follows:
+In order to train the agent, simply run Navigation.py (it contains a variable that is set to true, named train_mode).
 
-env_info = env.reset(train_mode=True)[brain_name]
+<h2>Running the trained agent:</h2>
 
-<h2>Running the code:</h2>
-
-To run the software, type python Navigation.py at the Anaconda command prompt, with the above described Anaconda environment being active.
-
-
+To run the software with the latest weights saved, type python TestTrainedAgent.py at the Anaconda command prompt, with the above described Anaconda environment being active.
