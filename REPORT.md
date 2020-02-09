@@ -33,10 +33,10 @@ UPDATE_EVERY = 4        # how often to update the network <br>
 <h2>Plot of rewards per episode</h2> 
 
 The agent is able to receive an average reward (over 100 episodes) of at least +13. 
-![Result chart](chart1.JPG)
+![Result chart](chart2.JPG)
 
 Number of episodes needed to solve the environment.
-![Result log](terminal.JPG)
+![Result log](terminal2.JPG)
 
 
 <h2>Ideas for future work</h2>
