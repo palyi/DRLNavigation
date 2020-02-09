@@ -23,6 +23,29 @@ Apart from the above introduction, this repository contains the code that used f
 
 ------------
 
+<h2>Detailed Description:</h2>
+
+The project is written in pyTorch and Python3. The functional, documented code is included in this repository, alongside with the model weights of the successful agent, contained in the file named checkpoint.pth.
+
+<h3>Characteristics of the solution:</h3> 
+
+<b><u>State space:</u></b><br>
+The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. 
+
+<b><u>Action space:</u></b><br>
+The action space consists of four discrete actions, as follows:
+0 - move forward.
+1 - move backward.
+2 - turn left.
+3 - turn right.
+
+<b><u>Rewards:</u></b><br>
+A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
+
+The task is episodic and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
+
+--------------
+
 <h2>Training the agent:</h2>
 In order to train the agent, the boolean variable in the DQN function of Navigation.py should be set true by train_mode=True, meaning so that resetting the environment should be adjusted as follows:
 
