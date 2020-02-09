@@ -35,16 +35,14 @@ UPDATE_EVERY = 4        # how often to update the network <br>
 The agent is able to receive an average reward (over 100 episodes) of at least +13. (I have set this latter value to 16.5.) <br>
 ![TrainChart](chart2.JPG)
 <br>
-Number of episodes needed to solve the environment.
+Number of episodes needed to solve the environment: 671
 ![TrainLog](terminal2.JPG)
 <br>
 <h2>Running the agent with the best weights achieved:</h2>
 <br>
 
 ![RunChart](runChart.JPG)
-
-Number of episodes needed to solve the environment.
-
+<br>
 ![RunLog](runTerminal.JPG)
 
 <h2>Ideas for future work</h2>
