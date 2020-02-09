@@ -12,7 +12,7 @@ The software is implementing Deep Reinforcement Learning. The agent makes use of
 
 <h2>Hyperparameters chosen</h2>
 
-Similarly to the example task (lunar lander), I applied the following hyperparameters:
+Similarly to the example task (lunar lander), I applied the following hyperparameters: <br>
 BUFFER_SIZE = int(1e5)  # replay buffer size <br>
 BATCH_SIZE = 64         # minibatch size <br>
 GAMMA = 0.99            # discount factor <br>
