@@ -38,7 +38,7 @@ The agent is able to receive an average reward (over 100 episodes) of at least +
 Number of episodes needed to solve the environment.
 ![Result log](terminal2.JPG)
 
-<h2>Ideas for future work</h2>
+<h2>Running the agent with the best weights achieved:</h2>
 <br>
 ![Result chart](RunChart.JPG)
 <br>
