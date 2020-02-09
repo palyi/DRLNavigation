@@ -32,12 +32,18 @@ UPDATE_EVERY = 4        # how often to update the network <br>
 
 <h2>Plot of rewards per episode</h2> 
 
-The agent is able to receive an average reward (over 100 episodes) of at least +13. 
+The agent is able to receive an average reward (over 100 episodes) of at least +13. <br>
 ![Result chart](chart2.JPG)
-
+<br>
 Number of episodes needed to solve the environment.
 ![Result log](terminal2.JPG)
 
+<h2>Ideas for future work</h2>
+<br>
+![Result chart](RunChart.JPG)
+<br>
+Number of episodes needed to solve the environment.
+![Result log](runTerminal.JPG)
 
 <h2>Ideas for future work</h2>
 I would most probably go for Prioritized Experience Replay to further improve the performance of the algorithm. By that approach, the agent could learn more of certain scenarios that are proven as more important, hence visiting those more frequently.
