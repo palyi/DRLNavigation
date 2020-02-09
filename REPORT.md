@@ -11,13 +11,14 @@ The software is implementing Deep Reinforcement Learning. The agent makes use of
 <h2>Model architecture of the deep Q neural network applied</h2>
 
 <h2>Hyperparameters chosen</h2>
+
 Similarly to the example task (lunar lander), I applied the following hyperparameters:
-BUFFER_SIZE = int(1e5)  # replay buffer size
-BATCH_SIZE = 64         # minibatch size
-GAMMA = 0.99            # discount factor
-TAU = 1e-3              # for soft update of target parameters
-LR = 5e-4               # learning rate 
-UPDATE_EVERY = 4        # how often to update the network
+BUFFER_SIZE = int(1e5)  # replay buffer size <br>
+BATCH_SIZE = 64         # minibatch size <br>
+GAMMA = 0.99            # discount factor <br>
+TAU = 1e-3              # for soft update of target parameters <br>
+LR = 5e-4               # learning rate <br>
+UPDATE_EVERY = 4        # how often to update the network <br>
 
 <h2>Plot of rewards per episode</h2> 
 
