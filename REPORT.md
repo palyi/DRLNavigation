@@ -32,7 +32,7 @@ UPDATE_EVERY = 4        # how often to update the network <br>
 
 <h2>Plot of rewards per episode</h2> 
 
-The agent is able to receive an average reward (over 100 episodes) of at least +13. <br>
+The agent is able to receive an average reward (over 100 episodes) of at least +13. (I have set this latter value to 16.5.) <br>
 ![TrainChart](chart2.JPG)
 <br>
 Number of episodes needed to solve the environment.
