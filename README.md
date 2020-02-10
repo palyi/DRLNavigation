@@ -15,6 +15,7 @@ Apart from the above introduction, this repository contains the code that used f
 2. Install pyTorch by pip install torch===1.4.0 torchvision===0.5.0 -f https://download.pytorch.org/whl/torch_stable.html
   This command lets you install pyTorch via Pip, in a Windows environment, utilizing CUDA 10.1 (commands for other environments can be generated at pyTorch.org
 3. Install Unity Machine Learning Agents by pip install mlagents
+4. The environment is provided by a Windows (64-bit) executable, which can be downloaded from: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip
 
 <h3>Downloading files needed</h3>
 
